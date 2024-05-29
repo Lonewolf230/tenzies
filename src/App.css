@@ -1,0 +1,72 @@
+body{
+  background-color: navy;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main{
+  position: relative;
+  background-color: white;
+  border-radius: 10px;
+  width: 700px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.die-container{
+
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: repeat(2,1fr);
+  gap: 20px;
+}
+
+.roll-btn{
+  padding: 20px;
+  border-radius: 8px;
+  background-color: navy;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+h2{
+  margin-bottom: 10px;
+}
+p{
+  margin-top: 5px;
+}
+
+.info{
+  font-weight: 700;
+  font-family: 'Lucida Sans',  sans-serif;
+  text-align: center;
+}
+
+.roll-count{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  font-weight: 700;
+  font-family: monospace;
+}
+
+.stopwatch{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-right: 30px;
+  padding-bottom: 5px;
+  font-weight: 700;
+  font-family: monospace;
+
+}
